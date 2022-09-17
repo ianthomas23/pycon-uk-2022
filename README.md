@@ -18,3 +18,5 @@ Census data is available for reuse under the Open Government Licence.
 Required source accreditation: Office for National Statistics
 
 The contents of this repository are available under the BSD 3-Clause License specified in the `LICENSE` file.
+
+![Example output image](images/uk_census_counts_fire.png)
