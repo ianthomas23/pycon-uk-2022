@@ -7,10 +7,16 @@ import zipfile_deflate64 as zipfile
 urls = [
     # Output Area boundaries
     ("https://borders.ukdataservice.ac.uk/ukborders/easy_download/prebuilt/shape/infuse_oa_lyr_2011_clipped.zip", "boundaries"),
+    # England and Wales: usual resident population
+    ("https://www.nomisweb.co.uk/output/census/2011/ks101ew_2011_oa.zip", "england_wales_population"),
     # England and Wales: qualifications
     ("https://www.nomisweb.co.uk/output/census/2011/ks501ew_2011_oa.zip", "england_wales_qualifications"),
-    # Northern Ireland: all
-    ("http://www.ninis2.nisra.gov.uk/Download/Census%202011/Quick%20Statistics%20Tables%20(statistical%20geographies).zip", "northern_ireland"),
+    # England and Wales: ethnic_group
+    ("https://www.nomisweb.co.uk/output/census/2011/ks201ew_2011_oa.zip", "england_wales_ethnic_group"),
+    # Northern Ireland: all key statistics
+    ("http://www.ninis2.nisra.gov.uk/Download/Census%202011/Key%20Statistics%20Tables%20(statistical%20geographies).zip", "northern_ireland"),
+    # Northern Ireland: all quick statistics
+    ("http://www.ninis2.nisra.gov.uk/Download/Census%202011/Quick%20Statistics%20Tables%20(statistical%20geographies).zip", "northern_ireland_quick"),
     # Scotland: all
     ("https://nrscensusprodumb.blob.core.windows.net/downloads/Output Area blk.zip", "scotland"),
 ]
