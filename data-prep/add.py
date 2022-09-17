@@ -72,7 +72,6 @@ ethnic_group_lookup = dict(
         white=["KS201NI0002", "KS201NI0004"],
         index="GeographyCode",
     ),
-
     S=dict(
         target="scotland.parq",
         input_dir=["scotland"],

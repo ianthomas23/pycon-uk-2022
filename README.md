@@ -6,7 +6,7 @@
 
 To run jupyter notebooks, first obtain the prepared parquet data files and put them in a directory called `parq` in the top level of this repository.
 
-The parquet datafiles can be downloaded from
+The parquet datafiles can be downloaded from https://github.com/ianthomas23/pycon-uk-2022-data using `git clone git@github.com:ianthomas23/pycon-uk-2022-data.git` and then unzipped.
 
 If you want to create the data files yourself, which is not advised as the process is slow:
 
